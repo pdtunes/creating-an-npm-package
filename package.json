@@ -1,0 +1,24 @@
+{
+  "name": "creating-an-npm-package",
+  "version": "1.0.0",
+  "description": "javascript",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/ -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdtunes/creating-an-npm-package.git"
+  },
+  "author": "Peder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pdtunes/creating-an-npm-package/issues"
+  },
+  "homepage": "https://github.com/pdtunes/creating-an-npm-package#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
